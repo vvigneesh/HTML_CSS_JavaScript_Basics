@@ -1,0 +1,23 @@
+.clock-class{
+    background-color: blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    line-height: 200px;
+    
+}
+#clock{
+    font-size: 50px;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    transform: translate(5%,5%);
+    text-align:center;
+    
+}
+.timer{
+    transform: translate(5%,5%);
+}
