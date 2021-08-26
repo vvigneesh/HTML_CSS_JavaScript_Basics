@@ -1,0 +1,62 @@
+.clock-class{
+    background-color: blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    line-height: 200px;
+    
+}
+#line1{
+    font-size: 50px;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    transform: translate(5%,5%);
+    text-align:center;
+    
+}
+.timer{
+    transform: translate(5%,5%);
+}
+
+div#line1 span#a {
+    display: none;
+    font-size: 50px;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    transform: translate(5%,5%);
+    text-align:center;
+    
+  }
+  
+  div#line1:hover span#a {
+    display: none;
+  }
+  
+  div#line1 span#b {
+    display: none;
+  }
+  
+  div#line1:hover span#b {
+    display: inline;
+    font-size: 50px;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    transform: translate(5%,5%);
+    text-align:center;
+    color: blue;
+    
+  }
+  #time-default{
+      background-color: blue;
+      width: 100px;
+      height: 100px;
+      transform: translate(-10%,5%);
+      font-size: 50px;
+      border-color: white;
+  }
