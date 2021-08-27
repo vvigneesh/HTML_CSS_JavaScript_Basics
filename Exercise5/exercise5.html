@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer-Exercise5</title>
+        <link rel="stylesheet" type="text/css" href="exercise5.css">
+    </head>
+    <body>
+        
+        <div id="line1" class="clock1"><span id='a'>00:00</span>
+            <span id='b'>
+                <input id="time-default" type="text" value="00" tabindex="1" onkeypress="next(event)" width="10px" height="50px">
+                <input id="time-default1" type="text" value="00" tabindex="2" onkeypress="search(event)" width="10px" height="50px">
+            </span>
+            <div id="clock" class="clock-class" onmouseover="document.getElementById('time-default').value" onmouseout="">00:00</div>
+        </div>
+        <script type="text/javascript" src="exercise5.js"></script>
+    </body>
+</html>
